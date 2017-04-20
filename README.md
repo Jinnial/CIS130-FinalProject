@@ -1,17 +1,17 @@
 # CIS103-102 Final Project
-For the final project we will be remaking a local lawncare business' website. Currently there websire is located at [http://www.417lawnsalon.com](http://www.417lawnsalon.com). It is very outdated and using Bootstrap and other skills we have learned over this semester we will improve it.
+For the final project we will be remaking a local lawn care business' website. Currently there website is located at [http://www.417lawnsalon.com](http://www.417lawnsalon.com). It is very outdated and using Bootstrap and other skills we have learned over this semester we will improve it.
 
-## Requirments
-Bellow is the list of requirments for our project:
+## Requirements
+Bellow is the list of requirements for our project:
 
-1. An extrenal style sheet
+1. An external style sheet
 2. At least four pages
-3. Be search engine optmized using:
+3. Be search engine optimized using:
     + Meta/Description tags
-    + Indexable Content
+    + Index Content
     + Robots.txt
     + Sitemap
-    + Mocrodata Incoperated (can be small)
+    + Micro data Incorporated (can be small)
 4. Responsive with a minimum of two breakpoints.
     + Index MUST have a Minimum of 3 columns which reduce to one column with each viewport change
     + Subsequent pages are at your discretion, but should look good on all viewport sizes
