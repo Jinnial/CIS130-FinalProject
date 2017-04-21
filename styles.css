@@ -10,14 +10,18 @@ body {
    padding-top: 10px;
    padding-bottom: 20px;
 }
-.title-image {
+.cover-image{
    height: 30em;
    background-image: url("images/lawn_mower.jpg");
    background-repeat: no-repeat;
-   background-position: left;
    background-size: cover;
 }
 
+/* Page Cover Images */
+#home-image {
+   background-image: url("images/lawn_mower.jpg");
+   background-position: left;
+}
 /* Navigation */
 nav ul li {
    list-style: none;
