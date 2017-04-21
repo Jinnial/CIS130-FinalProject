@@ -22,6 +22,10 @@ body {
    background-image: url("images/lawn_mower.jpg");
    background-position: left;
 }
+#about-image{
+   background-image: url("images/sheers.jpg");
+}
+
 /* Navigation */
 nav ul li {
    list-style: none;
