@@ -23,7 +23,8 @@ body {
    background-position: left;
 }
 #about-image{
-   background-image: url("images/sheers.jpg");
+   background-image: url("images/rake.jpg");
+   background-position: center;
 }
 
 /* Navigation */
