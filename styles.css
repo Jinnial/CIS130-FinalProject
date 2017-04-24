@@ -16,12 +16,16 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-image: url(images/lawn_mower.jpg);
+  background-size: 100%;
+  width: 100%;
   height: 30em; }
 
 #about-image {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(images/rake.jpg);
+  background-size: 100%;
+  width: 100%;
   height: 30em; }
 
 /* Navigation */
