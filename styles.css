@@ -1,36 +1,37 @@
+/* Variables */
+/* Mixins */
 /* Page Setup */
 body {
-  background-color: rgba(102, 186, 133, 0.89)
-}
+  background-color: rgba(102, 186, 133, 0.89); }
 
 /* Header */
 .jumbotron {
-   position: fixed;
-   width: 100%;
-   padding-top: 10px;
-   padding-bottom: 20px;
-}
-.cover-image{
-   height: 30em;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px; }
 
 /* Page Cover Images */
 #home-image {
-   background-image: url("images/lawn_mower.jpg");
-   background-position: left;
-}
-#about-image{
-   background-image: url("images/rake.jpg");
-   background-position: center;
-}
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url(images/lawn_mower.jpg);
+  height: 30em; }
+
+#about-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/rake.jpg);
+  height: 30em; }
 
 /* Navigation */
 nav ul li {
-   list-style: none;
-   display: inline-block;
-   padding-right: 3.4em;
-   padding-top: .5em;
-}
-.row .col-sm-7 p{padding-top: 1em;}
+  list-style: none;
+  display: inline-block;
+  padding-right: 3.4em;
+  padding-top: .5em; }
+
+.row .col-sm-7 p {
+  padding-top: 1em; }
+
+/*# sourceMappingURL=styles.css.map */
