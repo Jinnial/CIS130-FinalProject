@@ -59,7 +59,7 @@ nav ul li {
 .row .col-sm-7 p {
   padding-top: 1em; }
 
-/*Contact and Thank You page*/
+/*Contact and Thank You Page */
 section {
   text-align: center; }
 
@@ -72,8 +72,7 @@ form {
 @media screen {
   .cover {
     height: 30em; } }
+
 @media screen and (max-width: 95em) {
   .cover {
     height: 25em; } }
-
-/*# sourceMappingURL=styles.css.map */

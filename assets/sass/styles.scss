@@ -8,9 +8,6 @@ $default-img: '../images/lawn_mower.jpg';
 $file: '';
 
 /* Mixins */
-@mixin set-img-name($name){
-  ;
-}
 @mixin cover-size($size){
   .cover{
     height: $size;
@@ -73,7 +70,7 @@ nav ul li {
 }
 .row .col-sm-7 p{padding-top: 1em;}
 
-/*Contact and Thank You page*/
+/*Contact and Thank You Page */
 section{
   text-align: center;
 }
