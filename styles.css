@@ -17,16 +17,27 @@ body {
   background-position: left;
   background-image: url(images/lawn_mower.jpg);
   background-size: 100%;
-  width: 100%;
-  height: 30em; }
+  width: 100%; }
+  #home-image .cover {
+    height: 30em; }
 
 #about-image {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(images/rake.jpg);
   background-size: 100%;
-  width: 100%;
-  height: 30em; }
+  width: 100%; }
+  #about-image .cover {
+    height: 30em; }
+
+#review-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/people.jpg);
+  background-size: 100%;
+  width: 100%; }
+  #review-image .cover {
+    height: 30em; }
 
 /* Navigation */
 nav ul li {
@@ -37,5 +48,13 @@ nav ul li {
 
 .row .col-sm-7 p {
   padding-top: 1em; }
+
+/* Media Queries */
+@media screen {
+  .cover {
+    height: 30em; } }
+@media screen and (max-width: 95em) {
+  .cover {
+    height: 25em; } }
 
 /*# sourceMappingURL=styles.css.map */
