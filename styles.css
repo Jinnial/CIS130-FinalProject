@@ -58,6 +58,15 @@ nav ul li {
 .row .col-sm-7 p {
   padding-top: 1em; }
 
+/*Contact and Thank You page*/
+section {
+  text-align: center; }
+
+form {
+  text-align: center;
+  width: 40%;
+  margin: auto; }
+
 /* Media Queries */
 @media screen {
   .cover {
