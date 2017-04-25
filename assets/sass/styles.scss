@@ -1,18 +1,26 @@
+/* Imports */
+@import 'gruff.scss';
+
 /* Variables */
 $back-color: rgba(102, 186, 133, 0.89);
 $img-height: 30em;
+$file: '../images/lawn_mower.jpg';
 
 /* Mixins */
+@mixin set-img-name($name){
+  $file: '../images/' + $name + '.jpg';
+}
 @mixin cover-size($size){
   .cover{
     height: $size;
   }
 }
-@mixin cover($file, $placement: center){
+@mixin cover($file-arg, $placement: center){
   background:{
+    @include set-img-name($file-arg);
     repeat: no-repeat;
     position: $placement;
-    image: url(#{images/$file}.jpg);
+    image: url($file);
     size: 100%;
   }
   width: 100%;
