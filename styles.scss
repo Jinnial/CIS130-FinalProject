@@ -1,0 +1,48 @@
+/* Variables */
+$back-color: rgba(102, 186, 133, 0.89);
+
+/* Mixins */
+@mixin cover($file, $placement: center){
+  background:{
+    repeat: no-repeat;
+    position: $placement;
+    image: url(#{images/$file}.jpg);
+    size: 100%;
+  }
+  width: 100%;
+  height: 30em;
+}
+
+/* Page Setup */
+body {
+  background-color: $back-color;
+}
+
+/* Header */
+.jumbotron {
+   position: fixed;
+   width: 100%;
+   padding:{
+     top: 10px;
+     bottom: 20px;
+   }
+}
+
+/* Page Cover Images */
+#home-image {
+   @include cover(lawn_mower, left)
+}
+#about-image{
+   @include cover(rake, center)
+}
+
+/* Navigation */
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   padding:{
+     right: 3.4em;
+     top: .5em;
+   }
+}
+.row .col-sm-7 p{padding-top: 1em;}
