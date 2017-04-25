@@ -16,7 +16,7 @@ body {
 #home-image {
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../images/lawn_mower.jpg");
+  background-image: url(../images/lawn_mower.jpg);
   background-size: 100%;
   width: 100%; }
   #home-image .cover {
@@ -25,7 +25,7 @@ body {
 #about-image {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/lawn_mower.jpg");
+  background-image: url(../images/rake.jpg);
   background-size: 100%;
   width: 100%; }
   #about-image .cover {
@@ -34,7 +34,7 @@ body {
 #review-image {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/lawn_mower.jpg");
+  background-image: url(../images/people.jpg);
   background-size: 100%;
   width: 100%; }
   #review-image .cover {
@@ -43,7 +43,7 @@ body {
 #contact-image {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/lawn_mower.jpg");
+  background-image: url(../images/phone.jpg);
   background-size: 100%;
   width: 100%; }
   #contact-image .cover {

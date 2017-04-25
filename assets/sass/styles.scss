@@ -4,11 +4,12 @@
 /* Variables */
 $back-color: rgba(102, 186, 133, 0.89);
 $img-height: 30em;
-$file: '../images/lawn_mower.jpg';
+$default-img: '../images/lawn_mower.jpg';
+$file: '';
 
 /* Mixins */
 @mixin set-img-name($name){
-  $file: '../images/' + $name + '.jpg';
+  ;
 }
 @mixin cover-size($size){
   .cover{
@@ -16,11 +17,16 @@ $file: '../images/lawn_mower.jpg';
   }
 }
 @mixin cover($file-arg, $placement: center){
+  $file: #{'../images/' + $file-arg + '.jpg'};
   background:{
-    @include set-img-name($file-arg);
     repeat: no-repeat;
     position: $placement;
-    image: url($file);
+    @if $file == ''{
+      image: url($default-img);
+    }
+    @else{
+      image: url($file);
+    }
     size: 100%;
   }
   width: 100%;
@@ -47,13 +53,13 @@ body {
    @include cover(lawn_mower, left)
 }
 #about-image{
-   @include cover(rake)
+   @include cover(rake, center)
 }
 #review-image{
-  @include cover(people)
+  @include cover(people, center)
 }
 #contact-image {
-  @include cover(phone)
+  @include cover(phone, center)
 }
 
 /* Navigation */
