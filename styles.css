@@ -71,8 +71,7 @@ form {
 @media screen {
   .cover {
     height: 30em; } }
+
 @media screen and (max-width: 95em) {
   .cover {
     height: 25em; } }
-
-/*# sourceMappingURL=styles.css.map */
