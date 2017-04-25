@@ -30,19 +30,23 @@ $file: '';
   @include cover-size($img-height);
 }
 
+/* Header */
+.jumbotron {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding:{
+    top: 10px;
+    bottom: 20px;
+  }
+}
+
 /* Page Setup */
 body {
   background-color: $back-color;
 }
-
-/* Header */
-.jumbotron {
-   position: fixed;
-   width: 100%;
-   padding:{
-     top: 10px;
-     bottom: 20px;
-   }
+.main-content {
+  z-index: 0;
 }
 
 /* Page Cover Images */
