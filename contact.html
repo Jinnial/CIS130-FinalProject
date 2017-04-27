@@ -30,15 +30,15 @@
    </div>
    <div id="contact-image" class="cover"></div>
    <div class="container main-content">
-      <section>
+      <section class="contacts">
         <h3>Email Us</h3>
         <p>contact@417lawnsalon.com</p>
         <h3>Call Us</h3>
         <p>1-800-MOW-LAWN</p>
-
+        <h4>Feel free to send us your information and we will gladly send you a quote!</h4>
       </section>
       <form action = "thanks.html" method="get">
-         <label for="contact">Name
+         <label for="name">Name
            <input type="text" name="custName">
          </label>
          <label for="email">Email
@@ -50,13 +50,24 @@
          <label for="address">Address
            <input type="text" name="custAddress">
          </label>
+         <section>
+           <p>What is the best way for us to contact you?</p>
+           <label for="callCust">Call Me
+             <input type="radio" name="call" id="call">
+           </label>
+           <label for="emailCust">Email Me
+             <input type="radio" name="email" id="email">
+           </label>
+           <label for="any">Both
+             <input type="radio" name="any" id="any">
+           </label>
+         </section>
          <label for="specialNotes">Special Notes About Your Lawn
            <textarea cols="55" rows="4" name="specialNotes"></textarea>
          </label>
          <input type="submit" value="Submit">
       </form>
-      <!--Radio button - How would you prefer us to contact you
-          Selection Box - Reason for contact-->
+      <!--Selection Box - Reason for contact-->
    </div>
 </body>
 </html>
