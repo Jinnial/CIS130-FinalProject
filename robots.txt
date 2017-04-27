@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets
+Disallow: CompileSASS.bat
+Disallow: README.md
+Disallow: .gitigrore
