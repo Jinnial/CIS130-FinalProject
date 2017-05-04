@@ -101,3 +101,11 @@ form section{
 @media screen and (max-width: 95em) {
   @include cover-size(25em);
 }
+@media screen and (max-width: 1200px) {
+   #messy {
+      width: 70%;
+   }
+}
+@media screen and (max-width:62em){
+   #myCarousel{display:none;}
+}
