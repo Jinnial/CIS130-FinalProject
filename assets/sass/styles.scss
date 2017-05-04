@@ -54,6 +54,9 @@ body {
    @include cover(lawn_mower, left)
 }
 #about-image{
+   @include cover(sprinkler, right)
+}
+#services-image{
    @include cover(rake, center)
 }
 #review-image{

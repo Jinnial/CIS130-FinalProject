@@ -28,11 +28,20 @@ body {
 
 #about-image {
   background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(../images/sprinkler.jpg);
+  background-size: 100%;
+  width: 100%; }
+  #about-image .cover {
+    height: 30em; }
+
+#services-image {
+  background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/rake.jpg);
   background-size: 100%;
   width: 100%; }
-  #about-image .cover {
+  #services-image .cover {
     height: 30em; }
 
 #review-image {
